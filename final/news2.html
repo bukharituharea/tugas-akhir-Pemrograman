@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Pemograman Web</title>
+	<link rel="stylesheet" type="text/css" href="css/style6.css">
+	<script language="javascript" src="js/javascript.js"></script>
+</head>
+<body>
+
+<div class="header">
+	
+</div>
+
+<div class="menubar">
+		<ul>
+			<li><a  href="index.html">Home</a></li>
+			<li><a  href="news.html">Maluku Tengah</a></li>
+			<li><a href="news2.html">Maluku Tenggara</a></li>
+			<li><a href="news3.html">Papua</a></li>
+			<li><a  href="admin.html">Biodata Saya</a></li>
+			 <li><a  href="lihat.php">Lihat Pengunjung</a></li>
+			 <h1 style="font size :10px; font-family: arial ; margin-top; float: right; color: black" id="watch"></h1>
+			 <form name="formcari" onSubmit="cari()"><pre>
+  <input class="search" name="keyword" type="text" placeholder="Cari..." required><input class="button" type="submit" value="Cari">	
+		</ul>
+</div>	
+
+<div class="menu2">
+	<center>
+		<br><font size="6" style="font-family: geneva">Wisata Pulau Kei</font></br>
+		<img src="keii.jpg" width="1000px" height="400px">
+		</center>
+		<p style="border: 6px outset #B0C4DE">
+			Kabupaten Maluku Tenggara menurut Astronomi terletak antara : 5º sampai 6,5º Lintang Selatan dan 131º sampai 133,5º Bujur Timur.
+			Adapun letaknya menurut Geografis dibatasi antara lain oleh :
+			Sebelah Selatan : Laut Arafura
+			Sebelah Utara : Irian Jaya Bagian Selatan, Wilayah Kota Tual.
+			Sebelah Timur : Kepulauan Aru
+			Sebelah Barat : Laut Banda dan bagian Utara Kepulauan Tanimbar.
+			Luas Wilayah Kabupaten Maluku Tenggara ± 7.856,70 Km², dengan luas daratan ± 4.676,00 Km² dan luas perairannya ± 3.180,70 Km².
+			Kabupaten Maluku Tenggara hanya terdiri atas 1 Gugusan Kepulauan yaitu: Gugusan Kepulauan Kei yang terdiri atas Kepulauan Kei Kecil dengan 	Luas seluruhnya 722,62 Km² dan Pulau Kei Besar dengan Luas 550,05 Km². Dengan jumlah Pulau tersebut sebanyak 25 buah pulau.
+			Tentunya kepulauan kei menyimpan berjuta keindahan alamnya juga.
+		</p>
+		<p>
+			 <figcaption style="color: red">Pasir panjang </figcaption>
+			Pantai Pasir Panjang adalah daya tarik utama datangnya turis turis asing ke Pulau Kei. Sesuai namanya, hamparan pesisir dengan pasir putih disini sangat panjang, mulai dari area Pantai Ngurbloat di Desa Ngilngof hingga Pantai Ngursamadan di Ohoililir, Kecamatan Kei Kecil. Bentangan pasir putih ini mencapai panjang tiga kilometer, membuat garis putih memanjang dengan deretan pohon kelapa yang membuat landscape disini semakin indah.
+        </p>
+       
+		<center><img src="kei1.jpg" style="border: 6px outset #008080" width="900px" height="400px"></center>
+		<p>
+			<figcaption style="color: red">Pulau Bair</figcaption>
+			Para pengunjung yang pertama kali datang ke Pulau Bair, akan disuguhi dengan tebing-tebing batu yang sangat indah sekali, dengan mengelilingi pulau tersebut.
+			Tak hanya tebing-tebingnya saja, ketika air laut sedang surut nanti, kamu akan bisa melihat beberapa pantai lainnya yang bisa kamu kunjungi jika berada di Pulau Bair ini. Selain itu jika kamu beruntung, kamu akan bisa menyaksikan kumpulan dari ikan hiu berjenis Blackpit yang berada di Pulau Bair ini.
+		</p>
+		
+    	<center><img src="kei22.jpg" style="border: 6px outset #008080" width="900px" height="400px"></center>
+    	<p>
+    		<figcaption style="color: red">Goa Hawang</figcaption>
+    		Goa Hawang berada di Desa Letvuan, 15 km dari Langgur. Daya tarik utama yang dimiliki oleh Goa Hawang adalah batuan stalagtit yang sangat menarik. Kamu juga bisa melihat batu kutukan yang dimitoskan oleh warga sekitar. Yang paling menjadi daya tarik di sana adalah adanya kolam alami yang berwarna biru dan sangat jernih. Ternyata, air tersebut berasal dari sumber air dalam tanah.
+
+			Wisatawan yang ke Goa Hawang, banyak juga yang mencoba diving di dua buah lubangnya yang dihubungkan oleh sumber air bawah tanah. Jadi, kalau kamu mencoba divig dari satu lubang, kamu akan muncul kembali dan tembus menuju ke lubang selanjutnya.
+    	</p>
+    	
+    	<center><img src="kei3.jpg" style="border: 6px outset #008080" width="900px" height="400px"></center>
+    	<button type="button" onclick="javascript:history.back()"><span ></span> Kembali</button>
+<script type="text/javascript">
+    $(document).ready(function(){
+        function clock() {
+          var now = new Date();
+          var secs = ('0' + now.getSeconds()).slice(-2);
+          var mins = ('0' + now.getMinutes()).slice(-2);
+          var hr = now.getHours();
+          var Time = hr + ":" + mins + ":" + secs;
+          document.getElementById("watch").innerHTML = Time;
+          requestAnimationFrame(clock);
+        }
+
+        requestAnimationFrame(clock);
+    });
+</script>
+	
+</div>
+</body>
+</html>

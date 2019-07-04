@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Pemograman Web</title>
+	<link rel="stylesheet" type="text/css" href="css/style2.css">
+	<script language="javascript" src="js/javascript.js"></script>
+</head>
+<body style="background-image: url(33.jpg);">
+
+<div class="menubar">
+		<ul>
+			<li><a href="index.html">Home</a></li>
+			<li><a href="news.html">Maluku Tengah</a></li>
+			<li><a href="news2.html">Maluku Tenggara</a></li>
+			<li><a href="news3.html">Papua</a></li>
+			<li><a href="admin.html">Biodata Saya</a></li>
+			 <li><a  href="lihat.php">Lihat Pengunjung</a></li>
+			<h1 style="font size :20px; font-family: arial ; margin-top; float: right; color: white" id="watch"></h1>
+			 <form name="formcari" onSubmit="cari()"><pre>
+  <input class="search" name="keyword" type="text" placeholder="Cari..." required><input class="button" type="submit" value="Cari">	
+
+
+		</ul>
+
+</div>	
+
+<div class="menu2">
+	<br><br>
+	<center>
+	<script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+<script type="text/javascript">
+    $(document).ready(function(){
+        function clock() {
+          var now = new Date();
+          var secs = ('0' + now.getSeconds()).slice(-2);
+          var mins = ('0' + now.getMinutes()).slice(-2);
+          var hr = now.getHours();
+          var Time = hr + ":" + mins + ":" + secs;
+          document.getElementById("watch").innerHTML = Time;
+          requestAnimationFrame(clock);
+        }
+
+        requestAnimationFrame(clock);
+    });
+</script>
+</body>
+</html>
+	<center>
+		<br><br>
+		<h1>Final Project Pemograman Web</h1>
+		<b><p>Assalamualaikum wr..wb..</p></b>
+		<div style="background-color: white; border: 1px solid #17202a; height: auto; margin: 10px; padding: 3px; text-align: left; width: auto;"> Perkenalkan nama saya Bukhari f.a Tuharea dengan nim 1800018040, saya disini membuat website tentang wisata di indonesia khususnya pada bagian timur, kebetulan saya juga orang timur hehe.. dengan tujuan untuk memperkenalkan kepada ibu dan teman-teman bahwa indonesia memiliki berjuta-juta keindahan alamnya. Untuk lebih jelasnya.. Yuk kepoin website saya :)
+		<br><a href="news.html"> <b>klik OK untuk melanjutkan</b></a>
+		</div> 
+	</center>
+</div>
+
+</body>
+</html>

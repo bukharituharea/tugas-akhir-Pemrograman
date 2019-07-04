@@ -1,0 +1,31 @@
+body{
+	font-family: arvo;
+	text-align: center;
+	color: black;
+}
+.pinggirk{
+	
+}
+.ketengah{
+	margin: 10px auto;
+	width: 1150px;
+}
+ 
+@font-face {
+        font-family: tulisan_keren;
+        src: url(arvo.ttf);
+}
+
+@font-face {
+        font-family: tulisan_bawah;
+        src: url(co.ttf);
+}
+ 
+h3{
+	font-family: 'tulisan_keren';
+	font-size: 40pt;
+}
+h4{
+	font-family: 'tulisan_bawah';
+	font-size: 15pt;
+}
